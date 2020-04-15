@@ -1,0 +1,11 @@
+{
+   "namespace": "my.test",
+   "name": "key",
+   "type": "record",
+   "fields" : [
+     {
+       "name" : "title",
+       "type" : "string"
+     }
+   ]
+}

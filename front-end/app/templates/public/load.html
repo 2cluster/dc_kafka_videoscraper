@@ -1,0 +1,18 @@
+{% extends "public/templates/wrapper.html" %}
+
+{% import "macros/input_macros.html" as im %}
+
+{% block title %}Load{% endblock %}
+{% block header %}Load{% endblock %}
+
+{% block main %}
+
+<form action="/load" method="POST">
+    <div class="form-group">
+        {{ im.input(name="url", id="url", placeholder="Please insert your video-url") }}
+    </div>
+    <button type="submit" class="btn btn-primary mt-20">Load Video</button>
+</form>
+
+
+{% endblock %}

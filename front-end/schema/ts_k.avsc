@@ -1,0 +1,19 @@
+{
+   "namespace": "my.test",
+   "name": "key",
+   "type": "record",
+   "fields" : [
+     {
+       "name" : "m3u8_id",
+       "type" : "string"
+     },
+     {
+       "name" : "ts_id",
+       "type" : "string"
+     },
+     {
+       "name" : "title",
+       "type" : "string"
+     }
+   ]
+}

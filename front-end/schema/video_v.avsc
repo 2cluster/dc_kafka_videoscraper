@@ -1,0 +1,19 @@
+{
+   "namespace": "my.test",
+   "name": "value",
+   "type": "record",
+   "fields" : [
+     {
+       "name" : "title",
+       "type" : "string"
+     },
+     {
+       "name" : "title_hash",
+       "type" : "string"
+     },
+     {
+       "name" : "content",
+       "type" : "bytes"
+     }
+   ]
+}

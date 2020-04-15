@@ -1,0 +1,15 @@
+{% macro input(type="text", name="", id="", placeholder="") -%}
+<div class="form-group mt-4">
+    <input type="{{text}}" class="form-control" placeholder="{{placeholder}}" name={{name}} id="{{id}}">
+</div>
+{%- endmacro %}
+
+{% macro card(title="", text="", textsmall="") -%}
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">{{title}}</h5>
+        <p class="card-text">{{text}}</p>
+        <p class="card-text"><small class="text-muted">{{textsmall}}</small></p>
+    </div>
+</div>
+{%- endmacro %}

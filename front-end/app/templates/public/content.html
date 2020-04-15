@@ -1,0 +1,21 @@
+{% extends "public/templates/wrapper.html" %}
+
+{% import "macros/input_macros.html" as im %}
+
+{% block title %}Content{% endblock %}
+{% block header %}Content{% endblock %}
+
+{% block main %}
+
+
+{% if stream %}
+
+    {{ im.card(title=stream["title"], text="image", textsmall="small text") }}
+
+{% else %}
+
+
+{% endif %}
+
+
+{% endblock %}
