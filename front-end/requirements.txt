@@ -58,7 +58,7 @@ lazr.restfulclient==0.14.2
 lazr.uri==1.0.3
 lazy-object-proxy==1.4.3
 louis==3.10.0
-lxml==4.5.0
+lxml==4.6.2
 m3u8==0.5.4
 macaroonbakery==1.2.3
 MarkupSafe==1.1.0
