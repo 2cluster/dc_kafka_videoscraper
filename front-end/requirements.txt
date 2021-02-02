@@ -2,7 +2,7 @@ asn1crypto==0.24.0
 astroid==2.3.3
 avro-python3==1.9.2.1
 beautifulsoup4==4.8.2
-bleach==3.1.0
+bleach==3.3.0
 blinker==1.4
 Brlapi==0.6.7
 bs4==0.0.1
