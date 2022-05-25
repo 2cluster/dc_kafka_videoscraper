@@ -81,7 +81,7 @@ pycups==1.9.73
 pydbus==0.6.0
 Pygments==2.3.1
 PyGObject==3.34.0
-PyJWT==1.7.0
+PyJWT==2.4.0
 pykafka==2.8.0
 pylint==2.4.4
 pymacaroons==0.13.0
